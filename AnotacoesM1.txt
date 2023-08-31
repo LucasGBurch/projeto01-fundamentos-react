@@ -1,0 +1,27 @@
+1) Criação de aplicação React com Vite:
+
+"npm create vite@latest"
+
+2) Instalação de dependências:
+
+"npm i"
+
+3) vite.config para definir o server junto:
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 3005,
+  },
+})
+
+4) Rodar aplicação:
+"npm run dev"
+
+5) Bilioteca de ícones:
+
+"npm i phosphor-react"
+
+6) Biblioteca que trabalha com Datas:
+
+"npm i date-fns"

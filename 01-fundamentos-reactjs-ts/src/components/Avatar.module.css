@@ -1,0 +1,15 @@
+.avatar {
+  /*Esse a mais do calc é para compensar os 2 pixels da border e do outline (lembrando que o 4px e o 2px representam os dois lados)*/
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+}
+
+.avatarWithBorder {
+  /*Esse a mais do calc é para compensar os 2 pixels da border e do outline (lembrando que o 4px e o 2px representam os dois lados)*/
+  width: calc(3rem + 12px);
+  height: calc(3rem + 12px);
+  border-radius: 8px;
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--green-500);
+}
